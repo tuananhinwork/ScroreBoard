@@ -9,6 +9,9 @@ const GuestTeamPlus3El = document.getElementById('GuestTeamPlus3');
 const newGameBtn = document.getElementById('newGame-btn');
 const leadTeamEl= document.getElementById('leadTeam-el');
 
+const Team1Elment = document.querySelector('team1name-el');
+const Team2Elment = document.querySelector('team2name-el');
+
 // console.log(leadTeamEl);
 
 let homeTeamScoreCount = 0;
@@ -19,10 +22,10 @@ function frintLeadTeam() {
         leadTeamEl.textContent = 'No one is leading 👏';
     }
     else if (homeTeamScoreCount > guestTeamScoreCount) {
-        leadTeamEl.textContent = 'Home team is leading 👏';
+        leadTeamEl.textContent = Team1Elment + ' is leading 👏';
     }
     else {
-        leadTeamEl.textContent = 'Guest team is leading 👏';
+        leadTeamEl.textContent = Team2Elment + ' is leading 👏';
     }
 }
 
