@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <title>BacketBall Score App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="newGame-btn">NEW GAME</button>
+        <div id="clock-div">
+            <h2 id="clock-el">0</h2>
+            <div id="clockFunction-btn">
+                <button id = 'clockPlay-btn'>▶️ PLAY</button>
+                <button id = 'clockPause-btn'>⏯️ PAUSE</button>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div class="Team">
+                <h1>HOME</h1>
+                <p class="curentScore" id="HomeTeamScore">0</p>
+                <div class="function-btn">
+                    <button id="HomeTeamPlus1">+1</button>
+                    <button id="HomeTeamPlus2">+2</button>
+                    <button id="HomeTeamPlus3">+3</button>
+                </div>
+            </div>
+            <div class="Team">
+                <h1>GUEST</h1>
+                <p class="curentScore" id="GuestTeamScore">0</p>
+                <div class="function-btn">
+                    <button id="GuestTeamPlus1">+1</button>
+                    <button id="GuestTeamPlus2">+2</button>
+                    <button id="GuestTeamPlus3">+3</button>
+                </div>
+            </div>
+        </div>
+        <h2 id="leadTeam-el"></h2>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+@font-face {
+    src: url('./fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf');
+    font-family: 'Scoreboard';
+}
+
+body {
+    text-align: center;
+    background-color: #182042;
+}
+
+#newGame-btn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#newGame-btn:hover {
+    background-color: rgb(238, 232, 232);
+    font-size: 22px;
+    padding: 8.5px;
+    box-shadow: 5px -5px 0px black;
+}
+
+#clock-el {
+    width: 155px;
+    height: 50px;
+    margin: 30px auto 10px auto;
+    border: 2px solid black;
+    box-shadow: 4px -2px 0px black;
+    padding-top: 4px;
+    color: white;
+    font-family: 'Scoreboard';
+    font-size: 48px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.Team {
+    margin: 30px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Team h1 {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Team p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 190px;
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Scoreboard';
+    color: red;
+    font-size: 90px;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+
+.function-btn button{
+    font-family: 'Scoreboard', sans-serif;
+    margin-top: 0px;
+}
+
+#leadTeam-el {
+    color: white;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+}
+
